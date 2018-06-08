@@ -104,9 +104,9 @@
     });
   }
 
-  // Event popup
-  function eventPopup(){
-    $('.event-container').each(function () {
+  // Work popup
+  function workPopup(){
+    $('.work-container').each(function () {
       $(this).magnificPopup({
         delegate: 'a',
         type: 'image',
@@ -152,7 +152,7 @@
     smoothScrollSection();
     headerShrink();
     teamCarousel();
-    eventPopup();
+    workPopup();
     stickySocial();
   });
 

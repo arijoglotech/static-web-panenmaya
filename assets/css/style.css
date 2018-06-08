@@ -520,9 +520,38 @@ header {
       bottom: -999999px;
       margin: auto;
       width: 100%; }
-
-.event .event-caption {
-  margin-bottom: 20px; }
+    .event .event-container .event-thumbnail .event-title {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 2;
+      padding: 20px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      text-align: center;
+      font-size: 18px;
+      -ms-transform: translateY(-100%);
+          transform: translateY(-100%);
+      opacity: 0;
+      transition: transform ease-in-out 0.3s, opacity ease-in-out 0.6s; }
+      .event .event-container .event-thumbnail .event-title > span {
+        padding: 10px 0;
+        transition: box-shadow ease-in-out 0.2s; }
+      .event .event-container .event-thumbnail .event-title:hover > span {
+        box-shadow: inset 0px -2px 0px 0px #ffffff; }
+    .event .event-container .event-thumbnail:hover .event-title {
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+      opacity: 1; }
+    .event .event-container .event-thumbnail a {
+      color: #ffffff; }
 
 .team {
   overflow: hidden; }
