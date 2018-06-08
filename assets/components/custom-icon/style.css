@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'jtech-icon';
+  src:  url('fonts/jtech-icon.eot?kq1326');
+  src:  url('fonts/jtech-icon.eot?kq1326#iefix') format('embedded-opentype'),
+    url('fonts/jtech-icon.ttf?kq1326') format('truetype'),
+    url('fonts/jtech-icon.woff?kq1326') format('woff'),
+    url('fonts/jtech-icon.svg?kq1326#jtech-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ji-"], [class*=" ji-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'jtech-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ji-browser:before {
+  content: "\e900";
+}
+.ji-devices:before {
+  content: "\e901";
+}
+.ji-rocket:before {
+  content: "\e902";
+}
