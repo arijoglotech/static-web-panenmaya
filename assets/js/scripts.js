@@ -104,6 +104,7 @@
     });
   }
 
+  // Event popup
   function eventPopup(){
     $('.event-container').each(function () {
       $(this).magnificPopup({
@@ -125,6 +126,26 @@
     });
   }
 
+  // Sticky social
+  function stickySocial(){
+    var sidebar =jQuery("#sticky-social"),
+      window = jQuery(window),
+      offset = sidebar.offset(),
+      topPadding = 15;
+
+    window.scroll(function () {
+      if (window.scrollTop() > offset.top) {
+        sidebar.stop().animate({
+          marginTop: window.scrollTop() - offset.top + topPadding
+        });
+      } else {
+        sidebar.stop().animate({
+          marginTop: 0
+        });
+      }
+    });
+  }
+
   jQuery(function () {
     ctaBox();
     scrollSpyCustom();
@@ -132,6 +153,7 @@
     headerShrink();
     teamCarousel();
     eventPopup();
+    stickySocial();
   });
 
 })(jQuery, window, document);
