@@ -33,10 +33,18 @@
     });
   }
 
+  // Burger button icon
+  function burgerButton(){
+    jQuery('.burger-button').on('click', function () {
+      return jQuery(this).toggleClass('active');
+    });
+  }
+
   jQuery(function () {
     ctaBox();
     smoothScrollSection();
     headerShrink();
+    burgerButton();
   });
 
 })(jQuery, window, document);
