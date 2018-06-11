@@ -809,13 +809,10 @@ footer {
     border-radius: 150px;
     right: -70%;
     bottom: 60%; }
+  .hero-img {
+    padding-bottom: 50px; }
   .circle-pernik:not(:nth-child) {
     left: -30px !important; }
-  .cross-pernik:nth-child(6) {
-    background: #ffffff;
-    right: -40px; }
-    .cross-pernik:nth-child(6):after {
-      background: #ffffff; }
   .work .work-container .work-thumbnail {
     -ms-flex: 0 1 calc(50% - 30px);
         flex: 0 1 calc(50% - 30px); }
@@ -842,8 +839,15 @@ footer {
       margin-top: 30px; }
     .hero .btn-cta-hero {
       display: block; }
-  .hero-img img {
-    max-width: 100%; }
+  .hero-img {
+    padding-bottom: 0; }
+    .hero-img img {
+      max-width: 100%; }
+  .cross-pernik:nth-child(6) {
+    background: #ffffff;
+    right: -40px; }
+    .cross-pernik:nth-child(6):after {
+      background: #ffffff; }
   .featured-clients .logo-container .client-logo {
     padding: 10px 30px;
     margin: 15px;
