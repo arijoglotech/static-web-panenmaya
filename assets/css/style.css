@@ -1099,7 +1099,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   body.overlay-menu {
-    overflow: hidden; }
+    overflow: hidden !important; }
   .main-nav {
     transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
     visibility: hidden;
