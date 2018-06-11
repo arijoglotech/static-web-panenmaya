@@ -36,9 +36,9 @@
   // Burger button icon
   function burgerButton(){
     jQuery('.burger-button').on('click', function () {
+      jQuery(this).toggleClass('active');
       jQuery('body').toggleClass('overlay-menu');
       jQuery('.main-nav').toggleClass('mobile-overlay');
-      return jQuery(this).toggleClass('active');
     });
   }
 
