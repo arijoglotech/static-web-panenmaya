@@ -1105,8 +1105,6 @@ footer {
   html.overlay-menu,
   body.overlay-menu {
     overflow: hidden !important; }
-  html.overlay-menu {
-    height: 100%; }
   .main-nav {
     transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
     visibility: hidden;
@@ -1122,7 +1120,7 @@ footer {
     position: fixed;
     text-align: center;
     padding: 30px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.95);
     top: 0;
     right: 0;
     bottom: 0;
