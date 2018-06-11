@@ -662,21 +662,21 @@ header {
           transform: rotate(-135deg);
       top: 0; }
 
-article section h3 {
+.main-content section h3 {
   margin-bottom: 30px; }
 
-article section .lead {
+.main-content section .lead {
   margin-bottom: 40px; }
 
-article section p:not(.lead) {
+.main-content section p:not(.lead) {
   line-height: 200%;
   font-family: "Open Sans", sans-serif; }
 
-article .img-lead {
+.main-content .img-lead {
   overflow: hidden;
   border-radius: 40px;
   margin-bottom: 40px; }
-  article .img-lead > img {
+  .main-content .img-lead > img {
     width: auto;
     max-width: 100%; }
 
@@ -966,7 +966,7 @@ footer {
       font-size: 30px; }
     section p.lead {
       font-size: 22px; }
-  article {
+  .main-content {
     margin-top: 120px;
     min-height: 60vh; }
   .main-nav {
