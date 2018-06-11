@@ -1102,6 +1102,7 @@ footer {
     left: -280px; } }
 
 @media only screen and (max-width: 768px) {
+  html.overlay-menu,
   body.overlay-menu {
     overflow: hidden !important; }
   .main-nav {
