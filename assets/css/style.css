@@ -695,14 +695,64 @@ header {
   .business-unit-container .business-unit {
     -ms-flex: 0 1 calc(50% - 30px);
         flex: 0 1 calc(50% - 30px);
+    margin: 15px;
     border-radius: 20px;
     background: #eaeaea;
-    margin: 15px;
     padding: 30px 15px;
     text-align: center; }
     .business-unit-container .business-unit img {
       width: auto;
       max-width: 100%; }
+
+.our-client-container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -ms-flex-pack: start;
+      justify-content: flex-start; }
+  .our-client-container li {
+    -ms-flex: 0 1 calc(100% / 6);
+        flex: 0 1 calc(100% / 6);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin: 0;
+    position: relative;
+    padding: 60px 50px; }
+    .our-client-container li:after {
+      content: "";
+      background: #ddd;
+      width: 1px;
+      right: 0;
+      top: 30px;
+      bottom: 30px;
+      position: absolute; }
+    .our-client-container li:before {
+      content: "";
+      background: #ddd;
+      height: 1px;
+      bottom: 0;
+      left: 30px;
+      right: 30px;
+      position: absolute; }
+    .our-client-container li img {
+      width: auto;
+      max-width: 100%; }
+    .our-client-container li:nth-child(6):after, .our-client-container li:nth-child(6n+6):after {
+      display: none; }
+    .our-client-container li:nth-child(6n+1):nth-last-child(-n+6):before,
+    .our-client-container li:nth-child(6n+1):nth-last-child(-n+6) ~ li:before {
+      display: none; }
 
 .contact {
   background: #fafafa;
