@@ -772,7 +772,8 @@ header {
   -ms-flex-pack: start;
       justify-content: flex-start;
   margin-left: -15px;
-  margin-right: -15px; }
+  margin-right: -15px;
+  margin-bottom: 80px; }
   .event-page-container .event-item {
     -ms-flex: 0 1 calc(100% - 30px);
         flex: 0 1 calc(100% - 30px);
@@ -817,6 +818,28 @@ header {
     .event-page-container .event-item:hover .caption h4 a {
       color: #45afe3; }
 
+.pagination-circle .page-item {
+  margin: 0 10px; }
+  .pagination-circle .page-item .page-link {
+    background: red;
+    border-radius: 25px;
+    min-width: 50px;
+    height: 50px;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 700;
+    color: #1d262f;
+    background: #eaeaea;
+    border-width: 0; }
+  .pagination-circle .page-item:hover .page-link {
+    color: #45afe3; }
+  .pagination-circle .page-item.disabled .page-link {
+    color: #9fa4a8; }
+  .pagination-circle .page-item.active .page-link,
+  .pagination-circle .page-item.active:hover .page-link {
+    background: #45afe3;
+    color: #ffffff; }
+
 .contact {
   padding-bottom: 0; }
   .contact .lead {
@@ -829,7 +852,7 @@ header {
     .contact .contact-form .form-control {
       text-align: left; }
     .contact .contact-form textarea.form-control {
-      height: 170px;
+      height: 160px;
       margin-bottom: 30px;
       resize: none;
       padding-top: 15px;
@@ -1105,7 +1128,9 @@ footer {
     margin-bottom: 30px; }
   .event-page-container .event-item {
     -ms-flex: 0 1 calc(50% - 30px);
-        flex: 0 1 calc(50% - 30px); } }
+        flex: 0 1 calc(50% - 30px); }
+  .contact .contact-form textarea.form-control {
+    height: 280px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .our-client-container li {
