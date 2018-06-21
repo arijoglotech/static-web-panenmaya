@@ -1063,7 +1063,7 @@ section {
     padding: 5px; }
     .social-share-this li:first-child {
       padding-left: 0;
-      margin-right: 22.5px;
+      margin-right: 15px;
       font-weight: 700; }
     .social-share-this li > a {
       background: #eaeaea;
@@ -1371,7 +1371,14 @@ section {
     visibility: visible;
     opacity: 1; }
     .main-nav.mobile-overlay li {
-      left: 0; } }
+      left: 0; }
+  .event-detail-sidebar {
+    -ms-flex-order: 2;
+        order: 2; }
+  .event-detail-content {
+    -ms-flex-order: 1;
+        order: 1;
+    margin-bottom: 45px; } }
 
 @media only screen and (min-width: 1024px) {
   .burger-button {
