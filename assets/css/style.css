@@ -1679,7 +1679,7 @@ section {
   .macbook {
     margin-top: -495px; } }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   html.overlay-menu,
   body.overlay-menu {
     overflow: hidden !important; }
