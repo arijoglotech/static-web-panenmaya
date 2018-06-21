@@ -76,8 +76,8 @@ body, html {
   border-radius: 8px;
   border-width: 2px;
   font-weight: normal;
-  padding-left: 20px;
-  padding-right: 20px; }
+  padding-left: 20.1px;
+  padding-right: 20.1px; }
   .custom-select:focus,
   .form-control:focus {
     color: #1d262f;
@@ -89,7 +89,7 @@ body, html {
   margin: 0 5px; }
   .pagination-circle .page-item .page-link {
     border-radius: 20px;
-    min-width: 40px;
+    width: 40px;
     height: 40px;
     color: #1d262f;
     background: #eaeaea;
@@ -196,7 +196,7 @@ header {
     width: 100%; }
 
 .sidebar {
-  margin-bottom: 50px; }
+  margin-bottom: 45px; }
   .sidebar h4 {
     font-size: 1.25rem; }
   .sidebar .latest-events {
@@ -234,7 +234,7 @@ header {
           .sidebar .latest-events li > a .thumb-wrap .media-content {
             width: auto;
             height: 100%;
-            transition: transform ease-in-out 0.2s; }
+            transition: transform ease-in-out .2s; }
         .sidebar .latest-events li > a .caption {
           margin-left: 22.5px;
           -ms-flex: 1;
@@ -252,7 +252,7 @@ header {
             font-size: 1rem;
             font-weight: 700;
             font-family: "Rubik", sans-serif;
-            transition: color ease-in-out 0.2s; }
+            transition: color ease-in-out .2s; }
       .sidebar .latest-events li:hover > a .thumb-wrap .media-content {
         -ms-transform: rotate(5deg) scale(1.1);
             transform: rotate(5deg) scale(1.1); }
@@ -314,7 +314,7 @@ footer {
   -ms-transform: translateY(-50%);
       transform: translateY(-50%);
   right: 10px;
-  z-index: 29;
+  z-index: 990;
   background: rgba(0, 0, 0, 0.24);
   text-align: center;
   overflow: hidden;
@@ -357,7 +357,7 @@ footer {
     background: rgba(29, 38, 47, 0.7);
     content: "";
     position: relative;
-    transition: all 0.5s ease-in-out; }
+    transition: all .5s ease-in-out; }
   .burger-button span:before {
     position: absolute;
     top: -6px; }
@@ -400,7 +400,7 @@ section {
     font-size: 1.2rem;
     font-weight: 700;
     padding: 0;
-    margin-bottom: 20px; }
+    margin-bottom: 20.1px; }
   section p.lead {
     color: #9fa4a8;
     font-size: 1.125rem;
@@ -615,8 +615,8 @@ section {
       .featured-clients .logo-container .client-logo > img {
         width: auto;
         max-width: 100%;
-        opacity: 0.4;
-        transition: opacity ease-in-out 0.3s; }
+        opacity: .4;
+        transition: opacity ease-in-out .3s; }
       .featured-clients .logo-container .client-logo:hover > img {
         opacity: 1; }
   .featured-clients h4 {
@@ -782,10 +782,10 @@ section {
           justify-content: center;
       text-align: center;
       font-size: 1.125rem;
-      transition: transform ease-in-out 0.3s, opacity ease-in-out 0.6s; }
+      transition: transform ease-in-out .3s, opacity ease-in-out .6s; }
       .latest-event .event-container .event-thumbnail .event-title > span {
         padding: 10px 0;
-        transition: box-shadow ease-in-out 0.2s; }
+        transition: box-shadow ease-in-out .2s; }
       .latest-event .event-container .event-thumbnail .event-title:hover > span {
         box-shadow: inset 0 -2px 0 0 #ffffff; }
     .latest-event .event-container .event-thumbnail a {
@@ -1155,12 +1155,8 @@ section {
       margin-bottom: 15px; } }
 
 @media only screen and (max-width: 480px) {
-  .about .about-caption .btn--jtech {
-    width: 100%;
-    display: block; }
-  .cta .cta-box .btn--jtech {
-    width: 100%;
-    display: block; }
+  .about .about-caption .btn--jtech,
+  .cta .cta-box .btn--jtech,
   .contact-form .btn--jtech {
     width: 100%;
     display: block; } }
@@ -1299,13 +1295,19 @@ section {
     .the-team.the-team--5 .team-item h4 {
       font-size: .875rem; }
   .main-content section {
-    padding: 60px 0; } }
+    padding: 60px 0; }
+  .pagination-circle .page-item {
+    margin: 0 10px; }
+    .pagination-circle .page-item .page-link {
+      border-radius: 25px;
+      width: 50px;
+      height: 50px; } }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .our-client-container li {
     -ms-flex: 0 1 calc(100% / 4);
         flex: 0 1 calc(100% / 4);
-    padding: 60px 40px; }
+    padding: 60px 39px; }
     .our-client-container li:nth-child(4):after, .our-client-container li:nth-child(4n+4):after {
       display: none; }
     .our-client-container li:nth-child(4n+1):nth-last-child(-n+4):before,
@@ -1324,14 +1326,14 @@ section {
     top: 0;
     left: 0;
     right: 0;
-    transition: background-color ease 0.3s, height ease 0.3s, box-shadow ease 0.3s; }
+    transition: background-color ease .3s, height ease .3s, box-shadow ease .3s; }
     header.shrink {
       background-color: #ffffff;
       height: 100px;
-      box-shadow: 0px 10px 28px 0px rgba(0, 0, 0, 0.06); }
+      box-shadow: 0 10px 28px 0 rgba(0, 0, 0, 0.06); }
     header.header--inner-page {
       background: #ffffff;
-      box-shadow: 0px 10px 28px 0px rgba(0, 0, 0, 0.06); }
+      box-shadow: 0 10px 28px 0 rgba(0, 0, 0, 0.06); }
     header .header-cta {
       display: block; }
     header .nav-mobile-only {
@@ -1370,7 +1372,7 @@ section {
       bottom: -25%; }
     .hero h1 {
       font-size: 4.3rem;
-      margin-top: 0px; }
+      margin-top: 0; }
     .hero p {
       font-size: 1.5rem;
       line-height: 2.5rem; }
@@ -1381,7 +1383,7 @@ section {
     .featured-clients h4 span {
       display: block; }
   .about .lead {
-    margin-bottom: 80px; }
+    margin-bottom: 75px; }
   .about .about-caption {
     text-align: right; }
   .macbook {
@@ -1469,7 +1471,7 @@ section {
   .our-client-container li {
     -ms-flex: 0 1 calc(100% / 6);
         flex: 0 1 calc(100% / 6);
-    padding: 40px 30px; }
+    padding: 39px 30px; }
     .our-client-container li:nth-child(6):after, .our-client-container li:nth-child(6n+6):after {
       display: none; }
     .our-client-container li:nth-child(6n+1):nth-last-child(-n+6):before,
@@ -1522,10 +1524,10 @@ section {
       bottom: -20%; }
     .hero h1 {
       margin-top: 110px;
-      font-size: 80px;
+      font-size: 5rem;
       margin-bottom: 30px; }
     .hero p {
-      font-size: 28px;
+      font-size: 1.75rem;
       margin-bottom: 60px; }
   .hero-img {
     margin-top: 60px; }
@@ -1538,17 +1540,17 @@ section {
     margin-top: -501.1875px;
     left: -10%; }
   .service h3 {
-    margin-bottom: 80px; }
+    margin-bottom: 75px; }
   .service .service-card {
-    padding: 40px 30px; }
+    padding: 37.5px 30px; }
     .service .service-card h4 {
-      font-size: 20px; }
+      font-size: 1.25rem; }
   .cta .cta-box {
     padding: 90px 45px; }
   .contact .lead {
     margin-bottom: 60px; }
   .contact .contact-form textarea.form-control {
-    margin-bottom: 50px; }
+    margin-bottom: 60px; }
   footer {
     margin-top: 90px;
     text-align: left; }
@@ -1591,7 +1593,7 @@ section {
   .our-client-container li {
     -ms-flex: 0 1 calc(100% / 6);
         flex: 0 1 calc(100% / 6);
-    padding: 60px 50px; }
+    padding: 60px 45px; }
     .our-client-container li:nth-child(6):after, .our-client-container li:nth-child(6n+6):after {
       display: none; }
     .our-client-container li:nth-child(6n+1):nth-last-child(-n+6):before,
@@ -1599,7 +1601,30 @@ section {
       display: none; }
   .event-page-container .event-item {
     -ms-flex: 0 1 calc(25% - 30px);
-        flex: 0 1 calc(25% - 30px); }
+        flex: 0 1 calc(25% - 30px);
+    display: block; }
+    .event-page-container .event-item .event-thumbnail {
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      margin-bottom: 10px; }
+      .event-page-container .event-item .event-thumbnail:before {
+        content: "";
+        display: block;
+        width: 100%;
+        padding-top: 62.5%; }
+      .event-page-container .event-item .event-thumbnail .media-content {
+        position: absolute;
+        top: -999999px;
+        left: -999999px;
+        right: -999999px;
+        bottom: -999999px;
+        margin: auto;
+        width: 100%; }
+    .event-page-container .event-item .caption {
+      margin-left: 0; }
+      .event-page-container .event-item .caption h4 {
+        font-size: 1.125rem; }
   .bod section {
     padding: 60px 0; }
     .bod section:first-child {
@@ -1627,8 +1652,8 @@ section {
   .container {
     max-width: 1200px; }
   header {
-    padding-left: 50px;
-    padding-right: 50px; }
+    padding-left: 48px;
+    padding-right: 48px; }
   .hero:after {
     right: -55%; }
   .macbook {
@@ -1640,9 +1665,9 @@ section {
   .container {
     max-width: 1280px; }
   .hero h1 {
-    font-size: 92px; }
+    font-size: 5.7rem; }
   .hero p {
-    font-size: 30px; }
+    font-size: 1.875rem; }
   .macbook {
     max-height: 757.35px;
     margin-top: -473.34375px; } }
@@ -1652,12 +1677,7 @@ section {
     right: -30%;
     bottom: -20%; }
   .macbook {
-    margin-top: -495px; }
-  .team:after {
-    height: 500px;
-    width: 400px;
-    border-radius: 120px;
-    left: -280px; } }
+    margin-top: -495px; } }
 
 @media only screen and (max-width: 768px) {
   html.overlay-menu,
@@ -1665,7 +1685,7 @@ section {
     overflow: hidden !important; }
   .main-nav {
     z-index: 997;
-    transition: visibility 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: visibility .3s ease-in-out, opacity .3s ease-in-out;
     visibility: hidden;
     opacity: 0;
     display: -ms-flexbox;
@@ -1692,18 +1712,18 @@ section {
       font-size: 1.5rem;
       position: relative;
       left: -100%;
-      transition: left 0.3s ease-in-out;
-      transition-delay: 0.3s; }
+      transition: left .3s ease-in-out;
+      transition-delay: .3s; }
       .main-nav li:nth-child(2) {
-        transition-delay: 0.4s; }
+        transition-delay: .4s; }
       .main-nav li:nth-child(3) {
-        transition-delay: 0.5s; }
+        transition-delay: .5s; }
       .main-nav li:nth-child(4) {
-        transition-delay: 0.6s; }
+        transition-delay: .6s; }
       .main-nav li:nth-child(5) {
-        transition-delay: 0.7s; }
+        transition-delay: .7s; }
       .main-nav li:nth-child(6) {
-        transition-delay: 0.8s; }
+        transition-delay: .8s; }
       .main-nav li > a {
         color: #ffffff; }
       .main-nav li:hover > a {
