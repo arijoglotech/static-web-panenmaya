@@ -407,7 +407,7 @@ section {
     line-height: 2rem;
     font-weight: 300; }
 
-.hero {
+.section--hero {
   padding: 60px 0;
   padding-top: 150px;
   margin-top: -120px;
@@ -418,7 +418,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1; }
-  .hero:after {
+  .section--hero:after {
     content: "";
     background: linear-gradient(-120deg, #45afe3, #0066a4);
     background-blend-mode: screen;
@@ -426,20 +426,20 @@ section {
         transform: rotate(-45deg);
     position: absolute;
     z-index: -1; }
-  .hero h1 {
+  .section--hero h1 {
     font-weight: 700;
     font-size: 2.7rem; }
-  .hero p {
+  .section--hero p {
     color: #9fa4a8;
     font-weight: 300;
     margin-bottom: 2.5rem;
     font-size: 1.4rem;
     line-height: 1.9rem; }
-  .hero .btn-cta-hero {
+  .section--hero .btn-cta-hero {
     padding-right: 70px;
     position: relative;
     display: none; }
-    .hero .btn-cta-hero .icon {
+    .section--hero .btn-cta-hero .icon {
       width: 40px;
       height: 40px;
       border-radius: 20px;
@@ -452,7 +452,7 @@ section {
       display: block;
       position: absolute;
       font-size: 20px; }
-      .hero .btn-cta-hero .icon > i {
+      .section--hero .btn-cta-hero .icon > i {
         margin-left: 6px;
         position: relative;
         top: 1px; }
@@ -583,15 +583,15 @@ section {
   50% {
     transform: rotate(95deg); } }
 
-.featured-clients {
+.section--featured-clients {
   background: #f6f6f6;
   position: relative; }
-  .featured-clients .row {
+  .section--featured-clients .row {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
         align-items: center; }
-  .featured-clients .logo-container {
+  .section--featured-clients .logo-container {
     margin-left: -15px;
     margin-right: -15px;
     display: -ms-flexbox;
@@ -602,7 +602,7 @@ section {
         align-content: flex-start;
     -ms-flex-pack: center;
         justify-content: center; }
-    .featured-clients .logo-container .client-logo {
+    .section--featured-clients .logo-container .client-logo {
       margin: 15px;
       -ms-flex: 0 1 calc(33.333333% - 30px);
           flex: 0 1 calc(33.333333% - 30px);
@@ -612,14 +612,14 @@ section {
           align-items: center;
       text-align: center;
       padding: 5px; }
-      .featured-clients .logo-container .client-logo > img {
+      .section--featured-clients .logo-container .client-logo > img {
         width: auto;
         max-width: 100%;
         opacity: .4;
         transition: opacity ease-in-out .3s; }
-      .featured-clients .logo-container .client-logo:hover > img {
+      .section--featured-clients .logo-container .client-logo:hover > img {
         opacity: 1; }
-  .featured-clients h4 {
+  .section--featured-clients h4 {
     padding: 0;
     margin: 0;
     margin-bottom: 15px;
@@ -633,21 +633,21 @@ section {
   max-height: 891px;
   display: none; }
 
-.about {
+.section--about {
   position: relative; }
-  .about .lead {
+  .section--about .lead {
     margin-bottom: 22.5px; }
-  .about .about-caption {
+  .section--about .about-caption {
     text-align: left; }
 
-.service {
+.section--service {
   background: #f6f6f6; }
-  .service .row {
+  .section--service .row {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
         align-items: center; }
-  .service .service-container {
+  .section--service .service-container {
     margin-left: -15px;
     margin-right: -15px;
     display: -ms-flexbox;
@@ -658,7 +658,7 @@ section {
         align-content: flex-start;
     -ms-flex-pack: end;
         justify-content: flex-end; }
-  .service .service-card {
+  .section--service .service-card {
     -ms-flex: 0 1 calc(100% - 30px);
         flex: 0 1 calc(100% - 30px);
     border-radius: 20px;
@@ -671,22 +671,22 @@ section {
     display: flex;
     -ms-flex-align: center;
         align-items: center; }
-    .service .service-card .caption-wrap {
+    .section--service .service-card .caption-wrap {
       margin-left: 15px;
       -ms-flex: 1;
           flex: 1; }
-      .service .service-card .caption-wrap h4 {
+      .section--service .service-card .caption-wrap h4 {
         padding: 0;
         margin: 0;
         font-size: 1rem;
         font-weight: 700;
         margin-bottom: 7.5px; }
-      .service .service-card .caption-wrap p {
+      .section--service .service-card .caption-wrap p {
         padding: 0;
         margin: 0;
         font-size: .75rem;
         color: #9fa4a8; }
-    .service .service-card .icon-wrap {
+    .section--service .service-card .icon-wrap {
       width: 70px;
       height: 70px;
       border-radius: 100%;
@@ -698,10 +698,10 @@ section {
           align-items: center;
       -ms-flex-pack: center;
           justify-content: center; }
-      .service .service-card .icon-wrap img {
+      .section--service .service-card .icon-wrap img {
         width: auto;
         max-width: 40px; }
-      .service .service-card .icon-wrap:before {
+      .section--service .service-card .icon-wrap:before {
         position: absolute;
         width: 55px;
         height: 55px;
@@ -713,7 +713,7 @@ section {
         right: 0;
         bottom: 0;
         left: 0; }
-      .service .service-card .icon-wrap:after {
+      .section--service .service-card .icon-wrap:after {
         position: absolute;
         width: 40px;
         height: 40px;
@@ -726,13 +726,13 @@ section {
         bottom: 0;
         left: 0; }
 
-.latest-event .row {
+.section--latest-event .row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
 
-.latest-event .event-container {
+.section--latest-event .event-container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -743,7 +743,7 @@ section {
       justify-content: center;
   margin-left: -15px;
   margin-right: -15px; }
-  .latest-event .event-container .event-thumbnail {
+  .section--latest-event .event-container .event-thumbnail {
     position: relative;
     overflow: hidden;
     border-radius: 20px;
@@ -752,12 +752,12 @@ section {
     -ms-flex: 0 1 calc(100% - 30px);
         flex: 0 1 calc(100% - 30px);
     box-shadow: 0 10px 28px 0 rgba(0, 0, 0, 0.08); }
-    .latest-event .event-container .event-thumbnail:before {
+    .section--latest-event .event-container .event-thumbnail:before {
       content: "";
       display: block;
       width: 100%;
       padding-top: 50%; }
-    .latest-event .event-container .event-thumbnail .media-content {
+    .section--latest-event .event-container .event-thumbnail .media-content {
       position: absolute;
       top: -999999px;
       left: -999999px;
@@ -765,7 +765,7 @@ section {
       bottom: -999999px;
       margin: auto;
       width: 100%; }
-    .latest-event .event-container .event-thumbnail .event-title {
+    .section--latest-event .event-container .event-thumbnail .event-title {
       position: absolute;
       top: 0;
       right: 0;
@@ -783,26 +783,26 @@ section {
       text-align: center;
       font-size: 1.125rem;
       transition: transform ease-in-out .3s, opacity ease-in-out .6s; }
-      .latest-event .event-container .event-thumbnail .event-title > span {
+      .section--latest-event .event-container .event-thumbnail .event-title > span {
         padding: 10px 0;
         transition: box-shadow ease-in-out .2s; }
-      .latest-event .event-container .event-thumbnail .event-title:hover > span {
+      .section--latest-event .event-container .event-thumbnail .event-title:hover > span {
         box-shadow: inset 0 -2px 0 0 #ffffff; }
-    .latest-event .event-container .event-thumbnail a {
+    .section--latest-event .event-container .event-thumbnail a {
       color: #ffffff; }
 
-.cta {
+.section--cta {
   padding: 0; }
-  .cta .cta-box {
+  .section--cta .cta-box {
     border-radius: 20px;
     padding: 30px;
     color: #ffffff;
     overflow: hidden; }
-    .cta .cta-box h3, .cta .cta-box .lead {
+    .section--cta .cta-box h3, .section--cta .cta-box .lead {
       color: #ffffff;
       position: relative;
       z-index: 3; }
-    .cta .cta-box .lead {
+    .section--cta .cta-box .lead {
       margin-bottom: 30px; }
 
 .business-unit {
@@ -1107,7 +1107,7 @@ section {
   color: #6c7783; }
 
 @media only screen and (min-width: 320px) {
-  .hero:after {
+  .section--hero:after {
     width: 300px;
     height: 600px;
     border-radius: 100px;
@@ -1138,25 +1138,25 @@ section {
       display: none; } }
 
 @media only screen and (min-width: 375px) {
-  .service .service-container {
+  .section--service .service-container {
     margin-left: -7.5px;
     margin-right: -7.5px; }
-  .service .service-card {
+  .section--service .service-card {
     -ms-flex: 0 1 calc(50% - 15px);
         flex: 0 1 calc(50% - 15px);
     margin: 7.5px;
     padding-top: 22.5px;
     display: block; }
-    .service .service-card .caption-wrap {
+    .section--service .service-card .caption-wrap {
       text-align: center;
       margin: 0; }
-    .service .service-card .icon-wrap {
+    .section--service .service-card .icon-wrap {
       margin: 0 auto;
       margin-bottom: 15px; } }
 
 @media only screen and (max-width: 480px) {
-  .about .about-caption .btn--jtech,
-  .cta .cta-box .btn--jtech,
+  .section--about .about-caption .btn--jtech,
+  .section--cta .cta-box .btn--jtech,
   .contact-form .btn--jtech {
     width: 100%;
     display: block; } }
@@ -1173,7 +1173,7 @@ section {
       line-height: 2.4rem; }
     section h4 {
       font-size: 1.3rem; }
-  .hero:after {
+  .section--hero:after {
     width: 800px;
     height: 900px;
     border-radius: 150px;
@@ -1183,14 +1183,14 @@ section {
     padding-bottom: 50px; }
   .circle-pernik:not(:nth-child) {
     left: -30px !important; }
-  .featured-clients .logo-container .client-logo {
+  .section--featured-clients .logo-container .client-logo {
     padding: 10px 15px; }
-  .service .service-card .caption-wrap p {
+  .section--service .service-card .caption-wrap p {
     font-size: .875rem; }
-  .latest-event .event-container {
+  .section--latest-event .event-container {
     margin-left: -7.5px;
     margin-right: -7.5px; }
-    .latest-event .event-container .event-thumbnail {
+    .section--latest-event .event-container .event-thumbnail {
       -ms-flex: 0 1 calc(50% - 15px);
           flex: 0 1 calc(50% - 15px);
       margin: 7.5px; }
@@ -1224,18 +1224,18 @@ section {
       margin-bottom: 30px; }
     section h4 {
       margin-bottom: 30px; }
-  .hero {
+  .section--hero {
     height: auto;
     padding-top: 180px;
     padding-bottom: 80px; }
-    .hero:after {
+    .section--hero:after {
       width: 800px;
       border-radius: 150px;
       right: -70%;
       bottom: -60%; }
-    .hero h1 {
+    .section--hero h1 {
       margin-top: 30px; }
-    .hero .btn-cta-hero {
+    .section--hero .btn-cta-hero {
       display: block; }
   .hero-img {
     padding-bottom: 0; }
@@ -1246,28 +1246,28 @@ section {
     right: -40px; }
     .cross-pernik:nth-child(6):after {
       background: #ffffff; }
-  .featured-clients {
+  .section--featured-clients {
     padding: 90px 0; }
-    .featured-clients .logo-container .client-logo {
+    .section--featured-clients .logo-container .client-logo {
       padding: 15px 22.5px;
       margin: 15px;
       -ms-flex: 0 1 calc(25% - 30px);
           flex: 0 1 calc(25% - 30px); }
-    .featured-clients h4 {
+    .section--featured-clients h4 {
       margin-bottom: 0; }
   .macbook {
     display: block;
     max-height: 752px;
     margin-top: -282px;
     left: -50%; }
-  .service .service-container {
+  .section--service .service-container {
     -ms-flex-pack: center;
         justify-content: center; }
-  .service .service-card {
+  .section--service .service-card {
     -ms-flex: 0 1 calc(33.333% - 15px);
         flex: 0 1 calc(33.333% - 15px);
     padding: 30px 15px; }
-  .cta .cta-box {
+  .section--cta .cta-box {
     padding: 60px; }
   .contact .contact-form .form-group {
     margin-bottom: 30px; }
@@ -1360,85 +1360,85 @@ section {
   .main-nav {
     display: -ms-flexbox;
     display: flex; }
-  .hero {
+  .section--hero {
     padding: 100px 0;
     padding-top: 220px;
     margin-top: 0; }
-    .hero:after {
+    .section--hero:after {
       width: 1000px;
       border-radius: 240px;
       top: auto;
       right: -55%;
       bottom: -25%; }
-    .hero h1 {
+    .section--hero h1 {
       font-size: 4.3rem;
       margin-top: 0; }
-    .hero p {
+    .section--hero p {
       font-size: 1.5rem;
       line-height: 2.5rem; }
-  .featured-clients .logo-container .client-logo {
+  .section--featured-clients .logo-container .client-logo {
     padding: 15px 30px; }
-  .featured-clients h4 {
+  .section--featured-clients h4 {
     text-align: left; }
-    .featured-clients h4 span {
+    .section--featured-clients h4 span {
       display: block; }
-  .about .lead {
+  .section--about .lead {
     margin-bottom: 75px; }
-  .about .about-caption {
+  .section--about .about-caption {
     text-align: right; }
   .macbook {
     max-height: 712.8px;
     margin-top: -407.31429px;
     left: -15%; }
-  .service .service-container {
+  .section--service .service-container {
     margin-left: -15px;
     margin-right: -15px; }
-  .service .service-card {
+  .section--service .service-card {
     -ms-flex: 0 1 calc(25% - 30px);
         flex: 0 1 calc(25% - 30px);
     margin: 15px;
     padding: 30px;
     border-radius: 40px; }
-    .service .service-card .caption-wrap h4 {
+    .section--service .service-card .caption-wrap h4 {
       font-size: 1.1rem;
       margin-bottom: 12px; }
-    .service .service-card .caption-wrap p {
+    .section--service .service-card .caption-wrap p {
       font-size: 1rem; }
-    .service .service-card .icon-wrap {
+    .section--service .service-card .icon-wrap {
       width: 120px;
       height: 120px;
       margin-bottom: 30px; }
-      .service .service-card .icon-wrap img {
+      .section--service .service-card .icon-wrap img {
         max-width: 60px; }
-      .service .service-card .icon-wrap:before {
+      .section--service .service-card .icon-wrap:before {
         width: 100px;
         height: 100px; }
-      .service .service-card .icon-wrap:after {
+      .section--service .service-card .icon-wrap:after {
         width: 80px;
         height: 80px; }
-    .service .service-card:nth-child(4), .service .service-card:first-child {
+    .section--service .service-card:nth-child(4), .section--service .service-card:first-child {
       position: relative;
       top: 50%;
       -ms-transform: translateY(50%);
           transform: translateY(50%); }
-  .cta .cta-box {
+  .section--cta .cta-box {
     border-radius: 40px;
     padding: 90px 60px; }
-  .latest-event .event-container {
+  .section--latest-event .event-container {
     margin-left: -15px;
     margin-right: -15px; }
-    .latest-event .event-container .event-thumbnail {
+    .section--latest-event .event-container .event-thumbnail {
       position: relative;
       overflow: hidden;
       margin: 15px;
       -ms-flex: 0 1 calc(50% - 30px);
           flex: 0 1 calc(50% - 30px); }
-      .latest-event .event-container .event-thumbnail:before {
+      .section--latest-event .event-container .event-thumbnail:before {
         content: "";
         display: block;
         width: 100%;
         padding-top: 62.5%; }
-      .latest-event .event-container .event-thumbnail .media-content {
+      .section--latest-event .event-container .event-thumbnail .media-content {
         position: absolute;
         top: -999999px;
         left: -999999px;
@@ -1514,38 +1514,38 @@ section {
     display: flex;
     -ms-flex-align: center;
         align-items: center; }
-  .hero {
+  .section--hero {
     height: 100vh;
     padding: 0; }
-    .hero:after {
+    .section--hero:after {
       width: 1600px;
       border-radius: 300px;
       right: -70%;
       bottom: -20%; }
-    .hero h1 {
+    .section--hero h1 {
       margin-top: 110px;
       font-size: 5rem;
       margin-bottom: 30px; }
-    .hero p {
+    .section--hero p {
       font-size: 1.75rem;
       margin-bottom: 60px; }
   .hero-img {
     margin-top: 60px; }
-  .featured-clients {
+  .section--featured-clients {
     min-height: auto; }
-    .featured-clients .logo-container {
+    .section--featured-clients .logo-container {
       margin-left: 30px; }
   .macbook {
     max-height: 801.9px;
     margin-top: -501.1875px;
     left: -10%; }
-  .service h3 {
+  .section--service h3 {
     margin-bottom: 75px; }
-  .service .service-card {
+  .section--service .service-card {
     padding: 37.5px 30px; }
-    .service .service-card h4 {
+    .section--service .service-card h4 {
       font-size: 1.25rem; }
-  .cta .cta-box {
+  .section--cta .cta-box {
     padding: 90px 45px; }
   .contact .lead {
     margin-bottom: 60px; }
@@ -1654,7 +1654,7 @@ section {
   header {
     padding-left: 48px;
     padding-right: 48px; }
-  .hero:after {
+  .section--hero:after {
     right: -55%; }
   .macbook {
     max-height: 694.98px;
@@ -1664,16 +1664,16 @@ section {
 @media only screen and (min-width: 1600px) {
   .container {
     max-width: 1280px; }
-  .hero h1 {
+  .section--hero h1 {
     font-size: 5.7rem; }
-  .hero p {
+  .section--hero p {
     font-size: 1.875rem; }
   .macbook {
     max-height: 757.35px;
     margin-top: -473.34375px; } }
 
 @media only screen and (min-width: 1920px) {
-  .hero:after {
+  .section--hero:after {
     right: -30%;
     bottom: -20%; }
   .macbook {
